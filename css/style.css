@@ -1,0 +1,1668 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    list-style: none;
+    color: #333;
+}
+.wrap{
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+.top{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(81, 165, 199, 0.2);
+    display: flex;
+    position: fixed;
+    z-index: 15;
+}
+.top>.logo{
+    width: 30%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top>.logo>a{
+    display: block;
+}
+.top>.logo>a>img{
+    width: 300px;
+    height: 80px;
+    z-index: 99;
+}
+.top>.back{
+    width: 900px;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #999;
+    margin-left: 350px;
+    margin-top: 40px;
+    border-radius: 20%;
+    z-index: 100;
+}
+.top>.back>ul.menu{
+    width: 900px;
+    height: 60px;
+    display: flex;
+    margin-top: 10px;
+}
+.top>.back>ul.menu>li{
+    width: 900px;
+    height: 40 px;
+    line-height: 40px;
+    position: relative;
+
+}
+
+.top>.back>ul.menu>li>a{
+    display: block;
+}
+.top>.back>ul.menu>li>a:hover{
+    font-size: 1.2rem;
+    
+}
+.top>.back>ul.menu>li>ul.sub{
+    width: 180px;
+    height: 160px;
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    z-index: 10;
+    border: 1px solid #000;
+}
+.top>.back>ul.menu>li>ul.sub>li{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #000;
+}
+
+.top>.back>ul.menu>li>ul.sub>li>a{
+    display: block;
+}
+
+.mid{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.mid>.main{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    top: 150px;
+}
+.mid>.main>a{
+    display: block;
+}
+.mid>.main>a>img{
+    width: 100%;
+    height: 350px;
+}
+.mid>.main>h3{
+    position: absolute;
+    top: 70px;
+    left: 890px;
+    font-size: 50px;
+    color: #ffffff;
+}
+.mid>.main>h2{
+    position: absolute;
+    top: 160px;
+    left:  710px;
+    font-size: 25px;
+    color: #ffffff;
+}
+.mid>.mid1{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 150px;
+}
+.mid>.mid1>h2{
+    position: absolute;
+    left: 680px;
+    font-size: 20px;
+    top: 50px;
+    color: #000;
+}
+.mid>.mid2{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 150px;
+}
+.mid>.mid2>p{
+    position: absolute;
+    left: 720px;
+    font-size: 17px;
+    top: 50px;
+    border-top: 3px solid #000;
+    color: #000;
+}
+.bottom{
+    width: 100%;
+    height: 550px;
+    background-color: #4C86E0;
+    position: relative;
+    top: 150px;    
+}
+.bottom>ul.img{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: -60px;
+    background-color: #4C86E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+.bottom>ul.img>li{
+    width: 120px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 7px;
+}
+.bottom>ul.img>li>a{
+    position: absolute;
+    top: 5px;
+    color: #fff;
+    display: block;
+    font-size: 25px;
+}
+.bottom>.baro{
+    width: 100%;
+    height: 100%;
+    background-color: #4C86E0;
+    display: flex;
+}
+.bottom>.baro>.img1{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro>.img1>a{
+    display: block;
+}
+.bottom>.baro>.img1>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.bottom>.baro>.img2{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro>.img2>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.bottom>.baro>.img3{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro>.img3>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.bottom>.baro>.img4{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro>.img4>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+.bottom>.baro>.img5{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro>.img5>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+.bottom>ul.chair{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: -60px;
+    background-color: rgb(64, 61, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+.bottom>ul.chair>li{
+    width: 120px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 7px;
+    
+}
+.bottom>ul.chair>li>a{
+    position: absolute;
+    top: 5px;
+    color: #fff;
+    display: block;
+    font-size: 25px;
+}
+.bottom>.baro1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(64, 61, 71);
+    display: flex;
+}
+.bottom>.baro1>.img1{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro1>.img1>a{
+    display: block;
+}
+.bottom>.baro1>.img1>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.bottom>.baro1>.img2{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro1>.img2>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.bottom>.baro1>.img3{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro1>.img3>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.bottom>.baro1>.img4{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro1>.img4>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+.bottom>.baro1>.img5{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro1>.img5>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+.bottom>ul.bed{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: -60px;
+    background-color: rgb(199, 118, 118);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+.bottom>ul.bed>li{
+    width: 120px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 7px;
+}
+.bottom>ul.bed>li>a{
+    position: absolute;
+    top: 5px;
+    color: #fff;
+    display: block;
+    font-size: 25px;
+}
+.bottom>.baro2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(199, 118, 118);
+    display: flex;
+}
+.bottom>.baro2>.img1{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro2>.img1>a{
+    display: block;
+}
+.bottom>.baro2>.img1>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.bottom>.baro2>.img2{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro2>.img2>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.bottom>.baro2>.img3{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro2>.img3>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.bottom>.baro2>.img4{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro2>.img4>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+.bottom>.baro2>.img5{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro2>.img5>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+.bottom>ul.sofa{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: -60px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.bottom>ul.sofa>li{
+    width: 120px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 7px;
+}
+.bottom>ul.sofa>li>a{
+    position: absolute;
+    top: 5px;
+    color: #fff;
+    display: block;
+    font-size: 25px;
+}
+.bottom>.baro3{
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    display: flex;
+}
+.bottom>.baro3>.img1{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro3>.img1>a{
+    display: block;
+}
+.bottom>.baro3>.img1>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.bottom>.baro3>.img2{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro3>.img2>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.bottom>.baro3>.img3{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro3>.img3>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.bottom>.baro3>.img4{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro3>.img4>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+.bottom>.baro3>.img5{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro3>.img5>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+.bottom>ul.pillow{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: -60px;
+    background-color: rgb(140, 140, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.bottom>ul.pillow>li{
+    width: 120px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 7px;
+}
+.bottom>ul.pillow>li>a{
+    position: absolute;
+    top: 5px;
+    color: #fff;
+    display: block;
+    font-size: 25px;
+}
+.bottom>.baro4{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(140, 140, 224);
+    display: flex; 
+}
+.bottom>.baro4>.img1{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro4>.img1>a{
+    display: block;
+}
+.bottom>.baro4>.img1>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.bottom>.baro4>.img2{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro4>.img2>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.bottom>.baro4>.img3{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro4>.img3>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.bottom>.baro4>.img4{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro4>.img4>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+.bottom>.baro4>.img5{
+    width: 355px;
+    height: 598px;
+    margin-left: 13px;
+    margin-top: 20px;
+    position: relative;
+}
+.bottom>.baro4>.img5>a>img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+.modal1{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal1>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal1>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal1>.popup>a{
+    display: block;
+}
+.modal1>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+.modal2{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal2>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal2>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal2>.popup>a{
+    display: block;
+}
+.modal2>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+.modal3{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal3>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal3>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal3>.popup>a{
+    display: block;
+}
+.modal3>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+.modal4{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal4>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal4>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal4>.popup>a{
+    display: block;
+}
+.modal4>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+.modal5{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal5>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal5>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal5>.popup>a{
+    display: block;
+}
+.modal5>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+.modal6{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal6>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal6>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal6>.popup>a{
+    display: block;
+}
+.modal6>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal7{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal7>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal7>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal7>.popup>a{
+    display: block;
+}
+.modal7>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal8{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal8>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal8>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal8>.popup>a{
+    display: block;
+}
+.modal8>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal9{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal9>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal9>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal9>.popup>a{
+    display: block;
+}
+.modal9>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal10{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal10>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal10>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal10>.popup>a{
+    display: block;
+}
+.modal10>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal11{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal11>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal11>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal11>.popup>a{
+    display: block;
+}
+.modal11>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal12{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal12>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal12>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal12>.popup>a{
+    display: block;
+}
+.modal12>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal13{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal13>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal13>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal13>.popup>a{
+    display: block;
+}
+.modal13>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal14{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal14>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal14>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal14>.popup>a{
+    display: block;
+}
+.modal14>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+.modal15{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal15>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal15>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal15>.popup>a{
+    display: block;
+}
+.modal15>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal16{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal16>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal16>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal16>.popup>a{
+    display: block;
+}
+.modal16>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal17{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal17>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal17>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal17>.popup>a{
+    display: block;
+}
+.modal17>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal18{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal18>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal18>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal18>.popup>a{
+    display: block;
+}
+.modal18>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal19{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal19>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal19>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal19>.popup>a{
+    display: block;
+}
+.modal19>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal20{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal20>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal20>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal20>.popup>a{
+    display: block;
+}
+.modal20>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal21{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal21>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal21>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal21>.popup>a{
+    display: block;
+}
+.modal21>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal22{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal22>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal22>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal22>.popup>a{
+    display: block;
+}
+.modal22>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal23{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal23>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal23>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    top: 1060px;
+}
+
+.modal23>.popup>a{
+    display: block;
+}
+.modal23>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal24{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal24>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal24>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal24>.popup>a{
+    display: block;
+}
+.modal24>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
+
+.modal25{
+    width: 100%;
+    height: 1950px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal25>.popup{
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    position: absolute;
+    top: 1060px;
+}
+.modal25>.popup>button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 650px;
+    margin-top: 720px;
+    z-index: 1;
+}
+
+.modal25>.popup>a{
+    display: block;
+}
+.modal25>.popup>a>img{
+    width: 600px;
+    height: 650px;
+    left: 120px;
+    position: absolute;
+    top: 40px;
+    z-index: 0;
+}
